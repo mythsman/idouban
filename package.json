@@ -14,8 +14,8 @@
     }
   },
   "scripts": {
-    "start": "parcel serve -p 2368 src/index.html --dist-dir build",
-    "build": "parcel build"
+    "start": "parcel serve -p 8888 src/index.html --dist-dir build",
+    "build": "parcel build --no-source-maps"
   },
   "keywords": [],
   "author": "",

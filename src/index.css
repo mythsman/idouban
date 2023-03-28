@@ -47,6 +47,7 @@
     overflow: hidden;
     display: -webkit-box;
     font-size: 12px;
+    line-height: 16px;
     padding-right: 10px;
     margin-top: 5px;
     -webkit-box-orient: vertical;
@@ -58,12 +59,13 @@
     display: -webkit-box;
     font-size: 12px;
     padding-right: 10px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .idouban-comment {
     font-size: 14px;
-    margin-top: 5px;
+    line-height: 18px;
+    margin-top: 8px;
 }
 
 .idouban-pagination {
