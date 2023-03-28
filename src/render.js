@@ -58,7 +58,7 @@ export default {
         this.action = action
         this.data = Context.data_items[action]
         this.page_size = Context.options.page_size
-        this.page_max = Math.floor((this.data.length - 1) / this.page_size) + 1
+        this.page_max = Math.max(1, Math.floor((this.data.length - 1) / this.page_size) + 1)
         this.render_list(1)
     },
     render_list(page) {
