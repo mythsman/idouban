@@ -2,11 +2,15 @@
   "name": "idouban",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.js",
   "main": "dist/main.js",
+  "css": "dist/main.css",
   "targets": {
     "main": {
+      "source": "src/index.js",
       "optimize": true
+    },
+    "css": {
+      "source": "src/index.css"
     }
   },
   "scripts": {
