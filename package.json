@@ -1,6 +1,6 @@
 {
   "name": "idouban",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inject douban pages in your site.",
   "main": "dist/main.js",
   "css": "dist/main.css",
@@ -17,13 +17,23 @@
     "start": "parcel serve -p 8888 src/index.html --dist-dir build",
     "build": "parcel build --no-source-maps"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "douban"
+  ],
+  "author": "mythsman",
+  "license": "MIT",
   "devDependencies": {
     "parcel": "^2.8.3"
   },
   "engines": {
     "node": ">= 19"
+  },
+  "bugs": {
+    "url": "https://github.com/mythsman/hexo-douban/issues"
+  },
+  "homepage": "https://github.com/mythsman/hexo-douban/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mythsman/idouban.git"
   }
 }
