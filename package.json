@@ -1,6 +1,6 @@
 {
   "name": "idouban",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Inject douban pages in your site.",
   "main": "dist/main.js",
   "css": "dist/main.css",
