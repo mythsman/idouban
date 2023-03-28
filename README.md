@@ -37,7 +37,7 @@ cdn 缓存可能不是最新，如需最新版本，可直接指定版本号，�
 
 ## 原理
 
-插件内部会请求一个豆瓣数据缓存服务 [mouban](https://github.com/mythsman/mouban)，获取响应后直接直接以列表的形式渲染出来。类似功能的插件还有 [hexo-douban](https://github.com/mythsman/hexo-douban)
+插件内部会请求一个豆瓣数据缓存服务 [mouban](https://github.com/mythsman/mouban)，获取响应后直接直接以列表的形式渲染出来。类似功能的插件还有 [hexo-douban](https://github.com/mythsman/hexo-douban)。
 
 用户首次访问时会触发 mouban 的初始化收录。这个过程可能比较久，没有排队的情况下需要等待的时间至少为 条目数/15*5秒 。如果一不小心排队了，则可能需要等待半天。
 
@@ -45,10 +45,10 @@ cdn 缓存可能不是最新，如需最新版本，可直接指定版本号，�
 
 ## Demo
 
-个人博客：
 [读书页](https://blog.mythsman.com/books)
 [电影页](https://blog.mythsman.com/movies)
 [游戏页](https://blog.mythsman.com/games)
+[音乐页](https://mikito.mythsman.com/songs)
 
 ## 反馈
 
