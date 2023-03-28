@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "start": "parcel serve -p 2368 src/index.html",
+    "start": "parcel serve -p 2368 src/index.html --dist-dir build",
     "build": "parcel build"
   },
   "keywords": [],
