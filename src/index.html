@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>iDouban Demo</title>
+</head>
+<body>
+<div id="idouban"></div>
+</body>
+
+<script src="index.js" type="module"
+        onload="idouban.init({
+           selector: '#idouban',
+           type: 'movie',
+           douban_id: 162448367,
+           page_size: 10,
+        })"></script>
+
+</html>

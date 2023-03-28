@@ -1,0 +1,98 @@
+
+.idouban-tabs {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.idouban-tab {
+    padding: 5px;
+    text-decoration: none !important;
+}
+
+.idouban-tab-active {
+    background: #657b83;
+    color: #fff !important;
+}
+
+.idouban-item {
+    position: relative;
+    clear: both;
+    min-height: 150px;
+    padding: 10px 0;
+    border-bottom: 1px #ddd solid;
+}
+
+@media screen and (max-width: 600px) {
+    .idouban-item {
+        width: 100%;
+    }
+}
+
+.idouban-picture {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100px;
+}
+
+.idouban-picture img {
+    max-width: 100%;
+}
+
+.idouban-info {
+    padding-left: 120px;
+}
+
+.idouban-meta {
+    overflow: hidden;
+    display: -webkit-box;
+    font-size: 12px;
+    padding-right: 10px;
+    margin-top: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4
+}
+
+.idouban-rating {
+    overflow: hidden;
+    display: -webkit-box;
+    font-size: 12px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.idouban-comment {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.idouban-pagination {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.idouban-page-num {
+    min-width: 60px;
+    display: inline-block;
+}
+
+.idouban-button {
+    padding: 5px;
+    text-decoration: none !important;
+}
+
+.idouban-button:hover {
+    background: #657b83;
+    color: #fff !important;
+    opacity: 1;
+}
+
+.idouban-hide {
+    display: none;
+}
+
+.idouban-show {
+    display: block;
+}
+

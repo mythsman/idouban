@@ -1,0 +1,25 @@
+{
+  "name": "idouban",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "targets": {
+    "main": {
+      "optimize": true
+    }
+  },
+  "scripts": {
+    "start": "parcel serve -p 2368 src/index.html",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "engines": {
+    "node": ">= 19"
+  }
+}
