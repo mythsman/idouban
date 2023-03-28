@@ -1,0 +1,11 @@
+test/
+tmp/
+coverage/
+*.log
+.jshintrc
+.travis.yml
+node_modules/
+.idea/
+build/
+.parcel-cache/
+package-lock.json
