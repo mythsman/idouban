@@ -32,7 +32,7 @@ cdn 缓存可能不是最新，如需最新版本，可直接指定版本号，�
 
 * selector : 表示需要将相关代码生成后嵌入到指定 `document.querySelector($selector)` 下。
 * type : 表示需要生成的页面类型，可选项为 `book`, `movie`, `game`, `song`。
-* douban_Id : 你的豆瓣ID(纯数字格式，不是自定义的域名)。获取方法可以参考[怎样获取豆瓣的数字 ID ？](https://www.zhihu.com/question/19634899)。
+* douban_id : 你的豆瓣ID(纯数字格式，不是自定义的域名)。获取方法可以参考[怎样获取豆瓣的数字 ID ？](https://www.zhihu.com/question/19634899)。
 * page_size : 每页需要展示的条目数。
 
 ## 原理
