@@ -101,7 +101,7 @@ function build_song(comments) {
 }
 
 export default {
-    request_user() {
+    async request_user() {
         return fetch(`https://mouban.mythsman.com/guest/check_user?id=${Context.options.douban_id}`)
           .then(res => res.json())
           .then(response => {
@@ -113,7 +113,7 @@ export default {
           })
     },
 
-    request_item(douban_id, type, action) {
+    async request_item(douban_id, type, action) {
         return fetch(`https://mouban.mythsman.com/guest/user_${type}?id=${douban_id}&action=${action}`)
           .then(res => res.json())
           .then(response => {

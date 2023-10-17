@@ -2,7 +2,6 @@ import I18n from './i18n';
 import Context from './context'
 import Render from './render'
 import Http from './http'
-// import './index.css'
 
 const TYPES = ['book', 'movie', 'game', 'song']
 const ACTIONS = ['do', 'wish', 'collect']
